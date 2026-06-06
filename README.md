@@ -8,6 +8,8 @@ of a 21,199-follower base.
 
 **Author:** Eugene Nayshtetik ([ORCID 0000-0001-9166-3288](https://orcid.org/0000-0001-9166-3288)) · **Preprints (SocArXiv):** [Methods & reliability](https://osf.io/preprints/socarxiv/yu9kz) · [Tone-not-ideology homophily](https://osf.io/preprints/socarxiv/kvpqn) · [Wartime emotion](https://osf.io/preprints/socarxiv/4vfrb)
 
+🎬 **10-minute video summary for a general audience:** [`media/fb_sna_study_en.mp4`](media/fb_sna_study_en.mp4) — all three papers' findings, narrated (synthetic voice), every claim labeled by its evidence tier.
+
 ## Headline findings
 
 1. **Arenas, not tribes.** Every psychographic clustering (emotions, moral
