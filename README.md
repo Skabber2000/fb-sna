@@ -6,7 +6,7 @@ profile (the author's own), October 2023 – June 2026: 483 posts, 11,036
 comments scored on 34 LLM dimensions, 1.14M reactions, 2,281 engaged people
 of a 21,199-follower base.
 
-**Author:** Eugene Nayshtetik · **Preprints:** see `paper/` references (arXiv, forthcoming)
+**Author:** Eugene Nayshtetik ([ORCID 0000-0001-9166-3288](https://orcid.org/0000-0001-9166-3288)) · **Preprints (SocArXiv):** [Methods & reliability](https://osf.io/preprints/socarxiv/yu9kz) · [Tone-not-ideology homophily](https://osf.io/preprints/socarxiv/kvpqn) · [Wartime emotion](https://osf.io/preprints/socarxiv/4vfrb)
 
 ## Headline findings
 
