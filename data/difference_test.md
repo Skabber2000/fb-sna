@@ -6,23 +6,23 @@ Reply graph; decile ranks; 2000 edge-bootstrap reps.
 
 | tone dim | ideo dim | diff | 95% CI | excludes 0 |
 |---|---|---|---|---|
-| civility (0.111) | hawk (0.021) | 0.090 | [0.005, 0.181] | YES |
-| civility (0.111) | trad (-0.025) | 0.136 | [0.046, 0.226] | YES |
-| civility (0.111) | indv (0.024) | 0.087 | [0.009, 0.172] | YES |
-| iro (0.094) | hawk (0.021) | 0.073 | [-0.015, 0.160] | no |
-| iro (0.094) | trad (-0.025) | 0.119 | [0.025, 0.207] | YES |
-| iro (0.094) | indv (0.024) | 0.070 | [-0.013, 0.151] | no |
-| cnt (0.088) | hawk (0.021) | 0.067 | [-0.014, 0.145] | no |
-| cnt (0.088) | trad (-0.025) | 0.114 | [0.030, 0.195] | YES |
-| cnt (0.088) | indv (0.024) | 0.065 | [-0.014, 0.144] | no |
-| ang (0.081) | hawk (0.021) | 0.060 | [-0.030, 0.145] | no |
-| ang (0.081) | trad (-0.025) | 0.106 | [0.019, 0.191] | YES |
-| ang (0.081) | indv (0.024) | 0.058 | [-0.026, 0.137] | no |
-| cnsp (0.070) | hawk (0.021) | 0.049 | [-0.039, 0.139] | no |
-| cnsp (0.070) | trad (-0.025) | 0.095 | [0.004, 0.183] | YES |
-| cnsp (0.070) | indv (0.024) | 0.046 | [-0.036, 0.126] | no |
+| civility (0.111) | hawk (0.021) | 0.090 | [0.005, 0.174] | YES |
+| civility (0.111) | trad (-0.025) | 0.136 | [0.048, 0.224] | YES |
+| civility (0.111) | indv (0.024) | 0.087 | [0.013, 0.159] | YES |
+| iro (0.094) | hawk (0.021) | 0.073 | [-0.018, 0.163] | no |
+| iro (0.094) | trad (-0.025) | 0.119 | [0.031, 0.208] | YES |
+| iro (0.094) | indv (0.024) | 0.070 | [-0.014, 0.152] | no |
+| cnt (0.088) | hawk (0.021) | 0.067 | [-0.019, 0.156] | no |
+| cnt (0.088) | trad (-0.025) | 0.114 | [0.030, 0.201] | YES |
+| cnt (0.088) | indv (0.024) | 0.065 | [-0.007, 0.139] | no |
+| ang (0.081) | hawk (0.021) | 0.060 | [-0.022, 0.147] | no |
+| ang (0.081) | trad (-0.025) | 0.106 | [0.023, 0.194] | YES |
+| ang (0.081) | indv (0.024) | 0.058 | [-0.016, 0.134] | no |
+| cnsp (0.070) | hawk (0.021) | 0.049 | [-0.033, 0.134] | no |
+| cnsp (0.070) | trad (-0.025) | 0.095 | [0.008, 0.187] | YES |
+| cnsp (0.070) | indv (0.024) | 0.046 | [-0.028, 0.126] | no |
 
-**Pooled blocks:** mean tone assortativity 0.089 vs mean ideology 0.006; difference 0.082, 95% CI [0.038, 0.126] -> EXCLUDES zero.
+**Pooled blocks:** mean tone assortativity 0.089 vs mean ideology 0.006; difference 0.082, 95% CI [0.035, 0.131] -> EXCLUDES zero.
 Pairwise: 7/15 tone-ideology pairs exclude zero.
 
 ## B. Disattenuation (audit item 2)

@@ -53,15 +53,26 @@ def main() -> None:
     n_edges = {d: len(P[d]) for d in dims}
     point = {d: edge_assort(P[d]) for d in dims}
 
-    # joint edge bootstrap: resample the EDGE LIST once per replicate and
-    # evaluate every dim on the same resample (edges differ slightly per dim
-    # due to missing values; use per-dim index resampling with shared seed
-    # stream for comparability)
+    # SHARED-resample bootstrap: build one edge list restricted to edges
+    # where ALL dims are observed, resample it once per replicate, and
+    # evaluate every dim on the SAME resample. This preserves the positive
+    # covariance between dims measured on the same edges, giving correctly
+    # sized (narrower) CIs for differences; independent per-dim resampling
+    # is conservative.
+    vals = {d: rank10(na[d]).to_dict() for d in dims}
+    common = [(u, v) for u, v in g.edges()
+              if all(u in vals[d] and v in vals[d] for d in dims)]
+    print(f"shared edge set: {len(common)} edges "
+          f"(per-dim sets: {min(n_edges.values())}-{max(n_edges.values())})")
+    PC = {d: np.array([[vals[d][u], vals[d][v]] for u, v in common],
+                      dtype=float) for d in dims}
+    point = {d: edge_assort(PC[d]) for d in dims}      # on common edges
     boots = {d: np.empty(NBOOT) for d in dims}
+    ne = len(common)
     for b in range(NBOOT):
+        idx = RNG.integers(0, ne, ne)                  # ONE resample, all dims
         for d in dims:
-            idx = RNG.integers(0, n_edges[d], n_edges[d])
-            boots[d][b] = edge_assort(P[d][idx])
+            boots[d][b] = edge_assort(PC[d][idx])
 
     lines = ["# Tone vs Ideology: direct difference tests (audit item 1)", "",
              f"Reply graph; decile ranks; {NBOOT} edge-bootstrap reps.", "",
