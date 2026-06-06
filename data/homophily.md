@@ -1,0 +1,89 @@
+# Psychological homophily (assortativity + permutation null)
+
+Users: 612 (>= 3 scored comments); permutations: 200
+
+## Significant dimensions (p<0.05)
+   graph               dim  assort        z     p
+coengage               aff  0.0349   6.0524 0.000
+coengage              dogm  0.0340   5.7351 0.000
+coengage              evid  0.0240   4.6933 0.000
+coengage           insight  0.0208   4.1626 0.000
+coengage               cnt  0.0227   4.0091 0.000
+coengage               ang  0.0216   3.7383 0.000
+coengage               hum  0.0185   3.3552 0.000
+coengage  constructiveness  0.0148   3.1241 0.000
+coengage               ogh  0.0139   2.8775 0.000
+coengage     dominant_lang  0.0064   2.3147 0.020
+coengage               iro  0.0109   2.1495 0.025
+coengage              itru  0.0099   2.1398 0.040
+coengage               rsg  0.0096   2.0408 0.045
+coengage               frm  0.0076   1.8701 0.040
+coengage behaviour_cluster -0.0585 -10.3546 0.000
+coengage           ga_role -0.0706 -15.6737 0.000
+   reply          civility  0.1109   3.1787 0.005
+   reply              cnsp  0.0700   3.1505 0.000
+   reply               iro  0.0939   3.0528 0.000
+   reply               ang  0.0811   2.6266 0.010
+   reply               cnt  0.0882   2.6259 0.005
+   reply               hum  0.0753   2.5472 0.020
+   reply              wtru  0.0643   2.4475 0.005
+   reply               ogh  0.0626   2.4028 0.015
+   reply  constructiveness  0.0482   2.1847 0.030
+   reply           insight  0.0533   2.1151 0.015
+   reply               rsg  0.0488   2.0716 0.025
+   reply        politeness  0.0522   1.9941 0.040
+
+## All results
+   graph               dim  assort        z     p
+coengage               aff  0.0349   6.0524 0.000
+coengage              dogm  0.0340   5.7351 0.000
+coengage              evid  0.0240   4.6933 0.000
+coengage           insight  0.0208   4.1626 0.000
+coengage               cnt  0.0227   4.0091 0.000
+coengage               ang  0.0216   3.7383 0.000
+coengage               hum  0.0185   3.3552 0.000
+coengage  constructiveness  0.0148   3.1241 0.000
+coengage               ogh  0.0139   2.8775 0.000
+coengage     dominant_lang  0.0064   2.3147 0.020
+coengage               iro  0.0109   2.1495 0.025
+coengage              itru  0.0099   2.1398 0.040
+coengage               rsg  0.0096   2.0408 0.045
+coengage               frm  0.0076   1.8701 0.040
+coengage              trad  0.0077   1.8004 0.080
+coengage          civility  0.0070   1.6870 0.100
+coengage        politeness  0.0057   1.3992 0.170
+coengage              cnsp  0.0043   1.2507 0.210
+coengage              scfr  0.0015   0.8095 0.450
+coengage              wtru  0.0021   0.7441 0.460
+coengage              indv  0.0014   0.7203 0.495
+coengage              hawk  0.0005   0.6377 0.505
+coengage            av_gnd -0.0057   0.0746 0.920
+coengage               hop -0.0066  -0.5572 0.590
+coengage behaviour_cluster -0.0585 -10.3546 0.000
+coengage           ga_role -0.0706 -15.6737 0.000
+   reply          civility  0.1109   3.1787 0.005
+   reply              cnsp  0.0700   3.1505 0.000
+   reply               iro  0.0939   3.0528 0.000
+   reply               ang  0.0811   2.6266 0.010
+   reply               cnt  0.0882   2.6259 0.005
+   reply               hum  0.0753   2.5472 0.020
+   reply              wtru  0.0643   2.4475 0.005
+   reply               ogh  0.0626   2.4028 0.015
+   reply  constructiveness  0.0482   2.1847 0.030
+   reply           insight  0.0533   2.1151 0.015
+   reply               rsg  0.0488   2.0716 0.025
+   reply        politeness  0.0522   1.9941 0.040
+   reply              scfr  0.0472   1.8624 0.060
+   reply              evid  0.0363   1.7811 0.065
+   reply               frm  0.0242   1.4865 0.130
+   reply              dogm  0.0184   1.4332 0.145
+   reply              hawk  0.0210   1.3438 0.175
+   reply              indv  0.0235   1.2660 0.225
+   reply               aff  0.0062   1.0612 0.305
+   reply               hop  0.0051   1.0306 0.305
+   reply              itru -0.0069   0.7667 0.405
+   reply            av_gnd -0.0370   0.2929 0.755
+   reply              trad -0.0254   0.2517 0.820
+   reply     dominant_lang -0.0452  -0.2520 0.745
+   reply           ga_role -0.0305  -0.7991 0.420
+   reply behaviour_cluster -0.1140  -1.6377 0.100

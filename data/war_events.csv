@@ -1,0 +1,35 @@
+date,event,category,confidence
+2023-10-07,Hamas attack on Israel; global attention shifts from Ukraine,attention-shift,high
+2023-10-17,First ATACMS strikes (Berdiansk/Luhansk airfields),military-positive,high
+2023-11-01,Zaluzhnyi "stalemate" essay in The Economist,morale-negative,high
+2023-12-06,US Senate blocks supplemental aid package,aid-negative,high
+2023-12-29,Largest missile barrage on Ukrainian cities to date,strike-wave,high
+2024-01-02,Mass strikes on Kyiv/Kharkiv,strike-wave,high
+2024-02-08,Zaluzhnyi dismissed; Syrskyi appointed CinC,political,high
+2024-02-17,Fall of Avdiivka,military-negative,high
+2024-02-24,Two-year full-scale invasion anniversary,anniversary,high
+2024-04-20,US House passes $61B aid package,aid-positive,high
+2024-05-10,Russian offensive on Kharkiv oblast begins,military-negative,high
+2024-06-26,EU accession negotiations formally opened,political-positive,high
+2024-07-08,Okhmatdyt children's hospital strike,strike-wave,high
+2024-08-06,Kursk incursion begins,military-positive,high
+2024-09-26,Zelensky presents Victory Plan in Washington,political,high
+2024-11-05,Trump wins US presidential election,attention-shift,high
+2024-11-19,First ATACMS strike into Russia authorized,military-positive,high
+2024-11-21,Oreshnik IRBM strike on Dnipro,strike-wave,high
+2025-01-20,Trump inauguration; aid uncertainty begins,aid-negative,high
+2025-02-28,Zelensky-Trump Oval Office confrontation,political-negative,high
+2025-03-04,US pauses military aid and intel sharing,aid-negative,high
+2025-03-11,Jeddah talks; 30-day ceasefire proposal; aid resumes,political,high
+2025-04-13,Sumy missile strike on civilians (Palm Sunday),strike-wave,high
+2025-05-16,Istanbul direct talks (first since 2022),political,high
+2025-06-01,Operation Spiderweb drone strikes on Russian strategic aviation,military-positive,high
+2025-08-15,Putin-Trump Alaska summit,political,medium
+2025-09-10,Russian drones over Poland; NATO Article 4,escalation,medium
+2025-11-29,Zelensky chief of staff Yermak dismissed amid corruption probe,political-negative,medium
+2026-01-15,Peak winter strike campaign; Kyiv without power ~half of each day,strike-wave,high
+2026-02-01,Putin's agreed halt on Kyiv strikes expires (peace-talks gesture),political,medium
+2026-02-09,Belgorod water outage after Ukrainian strikes (~100K customers),military-positive,medium
+2026-03-25,~40% of Russian oil export capacity halted after drone strikes on Novorossiysk/Primorsk/Ust-Luga,military-positive,high
+2026-04-01,Sustained drone campaign on Baltic oil terminals (5 strikes in 10 days),military-positive,medium
+2026-05-26,Largest weekly Russian territorial gain of 2026 (38 sq mi); Zelensky orders prep for 2-3 more years of war,military-negative,high
