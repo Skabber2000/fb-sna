@@ -68,3 +68,14 @@ comment level; retire as a layer, keep only as a rare-event flag.
 
 Within-1-point agreement >= .89 everywhere: the instrument never swings
 wildly; unreliability is granularity, not direction.
+
+## Pass DISCOURSE (v1 dims, re-tested 2026-06-06)
+
+             dim   n  pearson_r   mae  exact  within1
+      politeness 199      0.740 0.442  0.588     0.97
+constructiveness 199      0.842 0.357  0.653     0.99
+         insight 199      0.824 0.271  0.729     1.00
+        civility 199      0.754 0.402  0.628     0.97
+          stance 198      0.796 0.374  0.657     0.97
+
+These are the dims behind the reply-homophily headline (P2); re-tested on the same 200-comment sample with the identical v1 rubric.

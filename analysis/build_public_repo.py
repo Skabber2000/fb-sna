@@ -29,13 +29,15 @@ DATA_FILES = [
     "layer_profiles.csv", "theme_affinity.csv", "homophily.csv",
     "homophily.md", "multiplex.md", "event_mood.md", "event_windows.csv",
     "consistency_report.md", "kanon_report.md", "post_reaction_types.csv",
+    "sna_descriptives.md", "event_significance.md", "event_significance.csv",
 ]
 DOC_FILES = ["ETHICS.md", "CODING_MANUAL.md", "VARIABLE_REGISTER.md",
              "SOCIOLOGY_BASELINES.md", "PIPELINE.md", "ARCHITECTURE.md",
              "DATA_DICTIONARY.md"]
 FIG_FILES = ["layers_heatmap.png", "event_mood.png", "homophily.png",
              "reaction_mix.png", "temporal_mood.png", "temporal_language.png",
-             "layers_affect.png"]
+             "layers_affect.png", "reliability.png", "network_anon.png",
+             "degree_dist.png"]
 CODE_FILES = sorted(p.name for p in (SRC / "analysis").glob("*.py")
                     if not p.name.startswith("_"))
 
@@ -79,9 +81,10 @@ def scan(path: Path, toks: set[str]) -> list[str]:
 
 
 def main() -> None:
-    if DST.exists():
-        shutil.rmtree(DST)
+    # refresh content dirs only; preserve .git and README.md
     for sub in ["data", "docs", "figures", "analysis"]:
+        if (DST / sub).exists():
+            shutil.rmtree(DST / sub)
         (DST / sub).mkdir(parents=True)
     toks = name_tokens()
     print(f"PII token list: {len(toks)} entries")
