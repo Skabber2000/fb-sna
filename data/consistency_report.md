@@ -79,3 +79,98 @@ constructiveness 199      0.842 0.357  0.653     0.99
           stance 198      0.796 0.374  0.657     0.97
 
 These are the dims behind the reply-homophily headline (P2); re-tested on the same 200-comment sample with the identical v1 rubric.
+
+## Ordinal reliability (Spearman rho, quadratic-weighted kappa) — added 2026-06-06
+
+### Pass A
+
+dim   n  spearman  qw_kappa
+ang 200     0.708     0.775
+iro 200     0.692     0.758
+hop 200     0.671     0.758
+rsg 199     0.701     0.757
+ent 200     0.817     0.855
+anx 200     0.759     0.816
+cnt 200     0.760     0.793
+aff 200     0.607     0.709
+dis 200     0.721     0.756
+exh 200     0.370     0.530
+rsl 200     0.710     0.790
+frm 200     0.652     0.652
+hum 200     0.734     0.747
+prf 200     0.661     0.645
+
+### Pass B
+
+ dim   n  spearman  qw_kappa
+care 200     0.755     0.730
+fair 200     0.631     0.637
+loya 200     0.708     0.748
+auth 200     0.391     0.520
+libe 200     0.485     0.429
+trad 200     0.646     0.710
+sexp 200     0.594     0.589
+indv 200     0.407     0.427
+scfr 200     0.054     0.045
+evid 200     0.718     0.713
+cnsp 200     0.815     0.789
+dogm 200     0.712     0.723
+itru 200     0.558     0.589
+wtru 200     0.746     0.767
+hawk 200     0.661     0.657
+ ogh 200     0.710     0.775
+lgbt 200     0.000     0.000
+gtrd 200     0.490     0.520
+ sxm 200     0.663     0.659
+
+### Pass DISCOURSE
+
+             dim   n  spearman  qw_kappa
+      politeness 199     0.722     0.729
+constructiveness 199     0.842     0.838
+         insight 199     0.808     0.824
+        civility 199     0.733     0.744
+          stance 198     0.760     0.791
+
+
+Test-retest Pearson r stratified by comment language; RU stratum topped up to ~150.
+
+## UK — pass A (n=169)
+
+dim   n  pearson_r   mae  exact  within1
+ang 169      0.757 0.343  0.704    0.953
+iro 169      0.764 0.391  0.657    0.953
+cnt 169      0.783 0.337  0.698    0.964
+aff 169      0.674 0.367  0.728    0.905
+hop 169      0.773 0.154  0.864    0.982
+rsg 168      0.774 0.196  0.815    0.988
+
+## UK — pass B (n=169)
+
+ dim   n  pearson_r   mae  exact  within1
+cnsp 169      0.738 0.148  0.858    0.994
+ ogh 169      0.780 0.124  0.882    0.994
+evid 169      0.717 0.284  0.728    0.994
+wtru 169      0.782 0.136  0.864    1.000
+hawk 169      0.667 0.178  0.840    0.982
+trad 169      0.725 0.118  0.893    0.988
+
+## RU — pass A (n=150)
+
+dim   n  pearson_r   mae  exact  within1
+ang 150      0.843 0.273  0.767    0.960
+iro 150      0.797 0.427  0.647    0.933
+cnt 150      0.737 0.373  0.707    0.927
+aff 150      0.783 0.293  0.773    0.933
+hop 150      0.655 0.107  0.893    1.000
+rsg 148      0.746 0.209  0.818    0.980
+
+## RU — pass B (n=150)
+
+ dim   n  pearson_r   mae  exact  within1
+cnsp 150      0.859 0.073  0.933    0.993
+ ogh 150      0.653 0.200  0.840    0.960
+evid 150      0.724 0.240  0.773    0.987
+wtru 150      0.677 0.140  0.880    0.980
+hawk 150      0.576 0.207  0.833    0.960
+trad 150      0.688 0.080  0.920    1.000

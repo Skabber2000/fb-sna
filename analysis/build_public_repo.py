@@ -31,11 +31,12 @@ DATA_FILES = [
     "consistency_report.md", "kanon_report.md", "post_reaction_types.csv",
     "sna_descriptives.md", "event_significance.md", "event_significance.csv",
     "community_structure.md", "community_mixing.csv", "validation_extra.md",
-    "community_profiles.csv",
+    "community_profiles.csv", "difference_test.md", "lang_reliability.md",
+    "crossmodel.md",
 ]
 DOC_FILES = ["ETHICS.md", "CODING_MANUAL.md", "VARIABLE_REGISTER.md",
              "SOCIOLOGY_BASELINES.md", "PIPELINE.md", "ARCHITECTURE.md",
-             "DATA_DICTIONARY.md"]
+             "DATA_DICTIONARY.md", "PREREGISTRATION.md"]
 FIG_FILES = ["layers_heatmap.png", "event_mood.png", "homophily.png",
              "reaction_mix.png", "temporal_mood.png", "temporal_language.png",
              "layers_affect.png", "reliability.png", "network_anon.png",
