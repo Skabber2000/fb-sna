@@ -109,7 +109,7 @@ def main() -> None:
         "<li>Ukraine 80.1%, Kyiv 65.2% of located; diaspora ~13% (DE/PL/US/UK)</li>"
         "<li>Education ~2&times; the national tertiary floor</li></ul></div>"
         "<div><h3>The 2,281 who engage</h3><ul>"
-        "<li>2,065 commenters + 216 reaction-only</li>"
+        "<li>1,555 commenters + 726 reaction-only</li>"
         "<li>Avatars: 76% real photos, 24% UA symbols, 4.3% in uniform</li>"
         "<li>Languages UK 70% / RU 12% / EN 1% &mdash; the RU&rarr;UK shift "
         "completed before this window</li></ul></div></div>",

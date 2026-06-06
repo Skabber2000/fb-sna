@@ -80,7 +80,7 @@ def main() -> None:
     <li>Ukraine 80.1%; Kyiv 65.2% of located; diaspora ~13% (DE/PL/US/UK)</li>
     <li>Views from followers: 76.8%</li></ul></div>
     <div><h3>Engaged audience (2,281)</h3><ul>
-    <li>2,065 commenters + 216 reaction-only</li>
+    <li>1,555 commenters + 726 reaction-only</li>
     <li>11,036 comments · 1.14M reactions on 448 posts</li>
     <li>Avatars: 76% real photo; 24% UA symbols; 4.3% in uniform; 43%m/38%f</li>
     <li>Languages: UK 70% · RU 12% · EN 1%</li></ul></div></div>

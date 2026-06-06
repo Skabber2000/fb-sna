@@ -56,7 +56,7 @@ Caveat: wartime CATI surveys exclude occupied territories and most refugees; ral
 
 | Metric | Value | Source | Year |
 |---|---|---|---|
-| Stress levels nationwide | 65% moderate, 25% severe | Lancet Reg. Health Europe (Xu et al.) | 2023 |
+| Stress levels nationwide | 65% moderate, 25% severe | Lushchak et al., Lancet Reg. Health Europe 36:100773 *(corrected 2026-06-06; previously mis-attributed to "Xu et al.")* | 2023 |
 | PTSD screening-positive, civilians | ~47% prevalence / 63% severity | Frontiers in Psychology | 2022–23 |
 | PTSD by displacement | 47% fled abroad / 39% stayed / 33% IDP | online survey (self-selected) | 2024 |
 | WHO modeled estimate | ~9.6M Ukrainians with MH condition; ~22% of conflict-exposed | WHO | 2022– |
